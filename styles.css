@@ -1,0 +1,21 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+}
+
+.item {
+  background-color: aquamarine;
+  border: 1px solid black;
+  padding: 30px;
+  margin: 4px;
+  text-align: center;
+}
+
+.item:hover {
+  background-color: rgb(185, 113, 248);
+}
